@@ -51,7 +51,7 @@ export default function Contact() {
           <Card className="card-hover">
             <CardHeader>
               <CardTitle className="text-xl text-primary">Get In Touch</CardTitle>
-              <CardDescription>Fill out the form and I'll get back to you as soon as possible.</CardDescription>
+              <CardDescription>Fill out the form and I&apos;ll get back to you as soon as possible.</CardDescription>
             </CardHeader>
             <CardContent>
               <form onSubmit={handleSubmit} className="space-y-4">
@@ -90,7 +90,7 @@ export default function Contact() {
                   {isSubmitting ? "Sending..." : "Send Message"}
                 </Button>
                 {submitSuccess && (
-                  <p className="text-green-500 text-sm mt-2">Message sent successfully! I'll get back to you soon.</p>
+                  <p className="text-green-500 text-sm mt-2">Message sent successfully! I&apos;ll get back to you soon.</p>
                 )}
               </form>
             </CardContent>

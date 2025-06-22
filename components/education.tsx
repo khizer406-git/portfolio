@@ -12,7 +12,7 @@ export default function Education() {
             <CardHeader>
               <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-2">
                 <div>
-                  <CardTitle className="text-xl text-primary">Master's in Computer Science</CardTitle>
+                  <CardTitle className="text-xl text-primary">Master&apos;s in Computer Science</CardTitle>
                   <CardDescription className="text-lg">FAST-NUCES</CardDescription>
                 </div>
                 <div className="flex flex-col gap-2 items-start md:items-end">
@@ -29,7 +29,7 @@ export default function Education() {
             <CardHeader>
               <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-2">
                 <div>
-                  <CardTitle className="text-xl text-primary">Bachelor's in Software Engineering</CardTitle>
+                  <CardTitle className="text-xl text-primary">Bachelor&apos;s in Software Engineering</CardTitle>
                   <CardDescription className="text-lg">FAST-NUCES</CardDescription>
                 </div>
                 <div className="flex flex-col gap-2 items-start md:items-end">
